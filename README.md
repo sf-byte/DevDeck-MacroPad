@@ -1,2 +1,98 @@
 # DevDeck-MacroPad
-Repo for the DevDeck 1.0 MacroPad
+---
+The DevDeck is a smallish MacroPad designed to make Programming more efficient.
+It has 5 switches, twp, LED status lights, an OLED screen to display some info, and uses circuitpython with some libraries as the firmware.
+
+# Features
+---
+* 5 Switches for doing macros,
+* 128x32 Oled display,
+* 2 SK6812 Mini E LED lights,
+* Custom firmware including a host.py for further customization post building.
+
+# CAD
+---
+Made in Fusion360 with blood, sweat, tears, and hours of revisions.
+![Full DevDeck CAD](screenshots/DevDeck_full_CAD.png)
+
+# PCB
+---
+Made in Kicad 9.0
+### Schematic
+![DevDeck PCB Schematic](screenshots/DevDeck_PCB_schematic.png)
+
+### PCB
+![DevDeck PCB](screenshots/DevDeck_PCB.png)
+
+# Firmware
+---
+As this is my first time ever designing/building hardware, and have never made firmware for anything in my life, I used ChatGPT as a help (all the ideas for what does what and how stuff work (so the basici logic) came from me).
+
+The firmware has by default 4 layers for the macro keys:
+1. Edit
+	1. Cut
+	2. Copy
+	3. Paste
+	4. Undo
+	5. Redo
+2. Git control
+	1. "git add ."
+	2. "git commit -m """
+	3. "git push origin main"
+	4. "git pull"
+	5. "git init"
+3. Code snippets
+	1. "try:
+			...
+		except:
+			..."
+	2. "while True:
+			..."
+	3. "def main():
+			..."
+	4. "if ...:
+			...
+		elif ...:
+			...
+		else:
+			..."
+	5. "from time import sleep as delay
+		while True:
+			try:
+				main()
+			except KeyboardInterrupt:
+				print("\nGoodbye", end="", flush=True)
+				delay(0.5)
+				print(".", end="", flush=True)
+				delay(0.5)
+				print(".", end="", flush=True)
+				delay(0.5)
+				print(".", end="", flush=True)
+				delay(0.5)
+				exit(0)
+				"
+4. Window control
+	1. win + up arrow
+	2. win + left arrow
+	3. win + d
+	4. win + right arrow
+	5. win + down arrow
+
+The screen by default just shows what macro layer you're currently on.
+
+### Host.py
+I added functionality to change or even add layers to the macropad using the host.py file.
+You can add and change both the the macro layers, and the screen layers.
+I tried to make it as user-friendly as possible, so whoever is using it can do so with ease.
+
+# BOM
+---
+* 1 3D printed case
+* 1 PCB
+* 1 Seeed XIAO RP2040
+* 5 Cherry MX switches
+* 5 DSA keycaps
+* 2 SK6812 Mini E LED lights
+* 1 0.91" 128x32 OLED display
+* 4 M3 Heatset inserts
+* 4 M3x16 SCHS bolts
