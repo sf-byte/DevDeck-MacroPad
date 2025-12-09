@@ -19,6 +19,8 @@ Made in Fusion360 with blood, sweat, tears, and hours of revisions.
 ---
 Made in Kicad 9.0
 ### Schematic
+I used an SK6812 on the schematic as a stand in for the OLED, as I didn't have a symbol for it.
+
 ![DevDeck PCB Schematic](screenshots/DevDeck_PCB_schematic.png)
 
 ### PCB
