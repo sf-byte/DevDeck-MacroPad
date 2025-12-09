@@ -26,7 +26,7 @@ Made in Kicad 9.0
 
 # Firmware
 ---
-As this is my first time ever designing/building hardware, and have never made firmware for anything in my life, I used ChatGPT as a help (all the ideas for what does what and how stuff work (so the basici logic) came from me).
+As this is my first time ever designing/building hardware, and have never made firmware for anything in my life, I used ChatGPT as a help (all the ideas for what does what and how stuff work (so the basic logic) came from me).
 
 The firmware has by default 4 layers for the macro keys:
 1. Edit
