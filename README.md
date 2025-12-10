@@ -1,7 +1,7 @@
 # DevDeck-MacroPad
 ---
 The DevDeck is a smallish MacroPad designed to make Programming more efficient.
-It has 5 switches, twp, LED status lights, an OLED screen to display some info, and uses circuitpython with some libraries as the firmware.
+It has 5 switches, two LED status lights, an OLED screen to display some info, and uses circuitpython with some libraries as the firmware.
 
 # Features
 ---
