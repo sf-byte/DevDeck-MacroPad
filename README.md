@@ -93,12 +93,12 @@ The screen by default just shows what macro layer you're currently on.
 To switch between screen layers you hit the middle(3) and either the top(1) or bottom(5) switches to back and forward in the screen layers, repectively.)
 
 The LED status lights show the following:  
-1 The right one:
+1: The right one:
 * white when no macro is being triggered
 * green when a macro is being triggered
 * red when there's a macro error
 
-2 The left one
+2: The left one
 * white when no layer is being changed
 * green when a macro layer is being changed
 * blue when a screen layer is being changed
