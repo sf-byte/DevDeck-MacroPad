@@ -44,34 +44,34 @@ The firmware has by default 4 layers for the macro keys:
 	4. "git pull"
 	5. "git init"
 3. Code snippets
-	1. "try:
-			...
-		except:
+	1. "try:  
+			...  
+		except:  
 			..."
-	2. "while True:
+	2. "while True:  
 			..."
-	3. "def main():
+	3. "def main():  
 			..."
-	4. "if ...:
-			...
-		elif ...:
-			...
-		else:
+	4. "if ...:  
+			...  
+		elif ...:  
+			...  
+		else:  
 			..."
-	5. "from time import sleep as delay
-		while True:
-			try:
-				main()
-			except KeyboardInterrupt:
-				print("\nGoodbye", end="", flush=True)
-				delay(0.5)
-				print(".", end="", flush=True)
-				delay(0.5)
-				print(".", end="", flush=True)
-				delay(0.5)
-				print(".", end="", flush=True)
-				delay(0.5)
-				exit(0)
+	5. "from time import sleep as delay  
+		while True:  
+			try:  
+				main()  
+			except KeyboardInterrupt:  
+				print("\nGoodbye", end="", flush=True)  
+				delay(0.5)  
+				print(".", end="", flush=True)  
+				delay(0.5)  
+				print(".", end="", flush=True)  
+				delay(0.5)  
+				print(".", end="", flush=True)  
+				delay(0.5)  
+				exit(0)  
 				"
 4. Window control
 	1. win + up arrow
