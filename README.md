@@ -92,6 +92,18 @@ The screen by default just shows what macro layer you're currently on.
 (if you add layers to the screen it still shows the current macro layer name on the top, plus the two lines of text you added (currently only supports text).
 To switch between screen layers you hit the middle(3) and either the top(1) or bottom(5) switches to back and forward in the screen layers, repectively.)
 
+The LED status lights show the following:  
+1 The right one:
+* white when no macro is being triggered
+* green when a macro is being triggered
+* red when there's a macro error
+
+2 The left one
+* white when no layer is being changed
+* green when a macro layer is being changed
+* blue when a screen layer is being changed
+* red when there's a layer changing error
+
 ### Host.py
 I added functionality to change or even add layers to the macropad using the host.py file.
 You can add and change both the the macro layers, and the screen layers.
