@@ -48,20 +48,20 @@ The firmware has by default 4 layers for the macro keys:
     	try:  
 			...  
 		except:  
-			...```
+			...
 	2. ```python
     	while True:  
-			...```
+			...
 	3. ```python
     	def main():  
-			...```
+			...
 	4. ```python
     	if ...:  
 			...  
 		elif ...:  
 			...  
 		else:  
-			...```
+			...
 	5. ```python
     	from time import sleep as delay  
 		while True:  
@@ -77,7 +77,6 @@ The firmware has by default 4 layers for the macro keys:
 				print(".", end="", flush=True)  
 				delay(0.5)  
 				exit(0)  
-				```
 4. Window control
 	1. win + up arrow
 	2. win + left arrow
