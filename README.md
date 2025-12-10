@@ -86,7 +86,11 @@ The firmware has by default 4 layers for the macro keys:
 	4. win + right arrow
 	5. win + down arrow
 
-The screen by default just shows what macro layer you're currently on.
+To switch between macro layers you hit the middle(3) and either the left(2) or right(4) switches to go back and forward in the macro layers, respectively.  
+
+The screen by default just shows what macro layer you're currently on.  
+(if you add layers to the screen it still shows the current macro layer name on the top, plus the two lines of text you added (currently only supports text).  
+To switch between screen layers you hit the middle(3) and either the top(1) or bottom(5) switches to back and forward in the screen layers, repectively.)
 
 ### Host.py
 I added functionality to change or even add layers to the macropad using the host.py file.
