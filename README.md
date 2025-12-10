@@ -1,22 +1,18 @@
 # DevDeck-MacroPad
----
 The DevDeck is a smallish MacroPad designed to make Programming more efficient.
 It has 5 switches, two LED status lights, an OLED screen to display some info, and uses circuitpython with some libraries as the firmware.
-
-# Features
 ---
+# Features
 * 5 Switches for doing macros,
 * 128x32 Oled display,
 * 2 SK6812 Mini E LED lights,
 * Custom firmware including a host.py for further customization post building.
-
-# CAD
 ---
+# CAD
 Made in Fusion360 with blood, sweat, tears, and hours of revisions.
 ![Full DevDeck CAD](screenshots/DevDeck_full_CAD.png)
-
-# PCB
 ---
+# PCB
 Made in Kicad 9.0
 ### Schematic
 I used an SK6812 on the schematic as a stand in for the OLED, as I didn't have a symbol for it.
@@ -25,9 +21,8 @@ I used an SK6812 on the schematic as a stand in for the OLED, as I didn't have a
 
 ### PCB
 ![DevDeck PCB](screenshots/DevDeck_PCB.png)
-
-# Firmware
 ---
+# Firmware
 As this is my first time ever designing/building hardware, and have never made firmware for anything in my life, I used ChatGPT as a help (all the ideas for what does what and how stuff work (so the basic logic) came from me).
 
 The firmware has by default 4 layers for the macro keys:
@@ -90,9 +85,8 @@ The screen by default just shows what macro layer you're currently on.
 I added functionality to change or even add layers to the macropad using the host.py file.
 You can add and change both the the macro layers, and the screen layers.
 I tried to make it as user-friendly as possible, so whoever is using it can do so with ease.
-
-# BOM
 ---
+# BOM
 * 1 3D printed case
 * 1 PCB
 * 1 Seeed XIAO RP2040
