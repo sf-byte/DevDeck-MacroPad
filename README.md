@@ -107,7 +107,7 @@ The LED status lights show the following:
 ### Host.py
 
 I added functionality to change or even add layers to the macropad from the comfort of your own computer, even post build and install, using the host.py file.
-You can add and change both the the macro layers, and the screen layers.
+You can add and change both the macro layers, and the screen layers.
 I tried to make it as user-friendly as possible, so whoever is using it can do so with ease.
 ---
 # BOM
