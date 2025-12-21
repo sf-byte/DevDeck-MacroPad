@@ -9,6 +9,7 @@ import sys
 import json
 import time
 import adafruit_ssd1306
+from microcontroller import pin
 
 from adafruit_hid.keyboard import Keyboard
 from adafruit_hid.keycode import Keycode
@@ -18,15 +19,17 @@ from adafruit_hid.keyboard_layout_us import KeyboardLayoutUS
 # Hardware configuration
 # -----------------------
 SWITCH_PINS = [
-    board.GP1,  # S1
-    board.GP2,  # S2
-    board.GP4,  # S3 (modifier for layer switching)
-    board.GP3,  # S4
-    board.GP0   # S5
+    board.D1,  # S1
+    board.D2,  # S2
+    board.D4,  # S3 (modifier for layer switching)
+    board.D3,  # S4
+    board.D0   # S5
 ]
 
 NUM_LEDS = 2
-NEOPIXEL_PIN = board.GP26
+sw = digitalio.DigitalInOut(pin.GPIO26)
+sw.direction = digitalio.Direction.INPUT
+NEOPIXEL_PIN = sw
 
 # OLED (I2C default pins)
 i2c = board.I2C()
